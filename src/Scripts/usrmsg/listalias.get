@@ -1,0 +1,8 @@
+From: Alias Creation Service <$fromaddx>
+To: $toaddx
+Subject: Alias List
+--
+Since we do not store your contacts' email addresses in clear, it is not possible for us to tell you the email addresses used for each alias. To find out the contact's email address for each alias, you can use the mail's "Search" function. We also suggest that you use filters to organize your mails.
+
+You have the following aliases:
+$aliaslist

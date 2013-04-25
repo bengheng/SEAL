@@ -1,0 +1,60 @@
+ABSTRACT
+========
+
+Email address leakages are the cause of several security problems including spam
+and privacy loss. With current email addresses, once the address leaks without
+its owner's consent, it becomes effectively compromised, creating a struggle for
+the user to keep the address out of the hands of new spammers. To compound the
+problem, some websites require addresses belonging to a certain domain (e.g.,
+<university>.edu) as a partial proof of the user's affiliation with an
+organization. This leaves the user not much choice except to have faith that the
+address will not be misused.
+
+To address the problem, SEAL improves on the prior work on disposable email
+addresses by proposing a mechanism called semi-private aliases. Semi-private
+aliases make two contributions. First, they have a lifecycle model that permits
+gradual, selective controls on the use of the alias by senders without requiring
+any special infrastructure on the part of senders or receivers. Second,
+semi-private aliases can be easily used to authenticate a user belonging to a
+certain organization (e.g., university or company) and reveal only selected
+attributes to a service while hiding the real identity. The second aspect
+recently proved useful in allowing students in one of our freshmen courses to
+register easily and safely at piazza.com, a discussion forum for courses, that,
+by default, requires students to provide a university email address, but has
+privacy policies that differ from a university's.
+
+
+INSTALLATION
+============
+
+Installing SEAL can be a little overwhelming as it requires setting up Postfix,
+Dovecot, Apache, SQLite, and Python. Please follow the respective instruction
+manuals for more information. Example Dovecot and Postfix configuration files
+are provided in the "./conf/" directory.
+
+Note that in some scripts, you may observe different domains being used for
+SEAL-related email addresses. That is because SEAL was deployed on different
+machines with different domain names. You can change them to the same domain
+name.
+
+
+LICENSING
+=========
+
+This program is released under the terms of the GNU General Public
+License (GNU GPL).
+
+You can find a copy of the license in the file COPYING.
+
+
+CONTACT
+=======
+
+For any questions or feedbacks, please contact:
+Beng Heng Ng (bengheng@gmail.com)
+Alex Crowell (crowella@eecs.umich.edu)
+Atul Prakash (aprakash@eecs.umich.edu)
+
+We value all feedback and will try to answer your queries. However, we seek your
+understanding that sometimes, due to resource constraints, our replies may take
+longer than we would prefer.

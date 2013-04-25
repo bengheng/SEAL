@@ -1,0 +1,3 @@
+The recoil directory contains scripts to automatically generate responses to
+Spam mails. They are not critical for SEAL to work, but just an experimental
+feature to see if the spammers subsequently reply to our responses.

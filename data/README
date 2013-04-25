@@ -1,0 +1,8 @@
+SEAL uses two SQLite databases: "cloakdb" and "logdb". "cloakdb" is generated
+from "schema.sql". It contains the main tables storing the aliases,
+correspondence histories, etc. On the other hand, "logdb" is generated from
+"log_schema.sql". It is used for summarizing mails that are received. You can
+look at "regendb.sh" to understand how to generate the initial empty databases.
+
+There are some utility scripts that are not core to SEAL. I just leave them here
+in case they turn out to be useful. They are small and not hard to understand.

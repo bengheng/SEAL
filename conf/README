@@ -1,0 +1,10 @@
+You can use the example configuration files in this directory as a starting
+point for Dovecot and Postfix. You should review the contents of the
+configuration files to make sure the values are appropriate, especially the file
+paths.
+
+Place "dovecot.conf" and "dovecot-sqlite.conf" in Dovecot's configuration
+directory, e.g., "/etc/dovecot/".
+
+Place "main.cf" and "master.cf" in Postfix's configuration directory, e.g.,
+"/etc/postfix/".

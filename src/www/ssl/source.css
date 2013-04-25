@@ -1,0 +1,37 @@
+ body {
+  background-color: #111111;
+  font-family: Courier New, Courier, mono;
+  font-size: 11px;
+  color: #66CCFF;
+ }
+
+ span {
+  color: #FFFFFF;
+ }
+
+ .linenumber {
+  color: #FF9900;    
+ }
+
+ em {
+  color: #666666;
+ }
+
+ h3 {
+  font-family: Tahoma, Trebuchet MS, Arial;
+  text-decoration: none;
+ }
+
+ .codelink {
+  font-family: Tahoma, Trebuchet MS, Arial;
+  text-decoration: none;
+  font-size: 10px;
+  color: #EEEEEE;
+ }
+
+ .codelink:hover {
+  font-family: Tahoma, Trebuchet MS, Arial;
+  text-decoration: underline;
+  font-size: 10px;
+  color: #66CCFF;
+ }

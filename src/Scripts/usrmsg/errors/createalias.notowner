@@ -1,0 +1,5 @@
+From: Alias Creation Service <$fromaddx>
+To: $toaddx
+Subject: Aliasname "$aliasname" in use!
+--
+You do not have ownership of "$aliasname". Please try another aliasname.

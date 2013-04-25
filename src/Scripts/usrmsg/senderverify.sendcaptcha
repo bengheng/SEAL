@@ -1,0 +1,6 @@
+From: Cloak Service <$fromaddx>
+To: $toaddx
+Subject: Verification Required - $identifier
+--
+To send mails to this user, please reply to this mail with the solved CAPTCHA in the message body.
+Once verified, you will need to resend your previous mail.

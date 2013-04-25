@@ -1,0 +1,218 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Alias Service Account Creation</title>
+ </head>
+ <body bgcolor="#ffffff" text="#000000" link="#0000cc" vlink="#551a8b" alink="#ff0000" dir="ltr">
+
+<table width="94%" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tbody><tr valign="top">
+  <td width="25%">
+   <h1>
+    Alias Service
+   </h1>
+     <h3>
+  Create an Account
+</h3>
+  </td>
+  <td width="99%" bgcolor="#ffffff" valign="top">
+
+  </td>
+  </tr>
+</tbody></table>
+
+  <div class="body">
+
+<br>
+
+  <form id="createaccount" name="createaccount" action="https://cloak.eecs.umich.edu/cgi-bin/useradd.py" method="post">
+  <table cellpadding="2" bgcolor="white" cellspacing="0" border="0" width="1%">
+  <tbody><tr><td>
+  <table bgcolor="#cbdced" border="0" cellpadding="2" cellspacing="0" width="1%">
+  <tbody><tr><td>
+  <table bgcolor="#eeeeee" border="0" cellpadding="2" cellspacing="0" width="100%">
+  <tbody><tr><td bgcolor="#ffffff" valign="top" align="center">
+  <div id="cookieWarning1" align="left">&nbsp;</div><table cellspacing="0" cellpadding="5" width="100%" bgcolor="#ffffff" border="0">
+  <tbody><tr>
+  <td colspan="2" valign="top">
+  <span class="gaia ops gsl">
+  Create an account on cloak.eecs.umich.edu
+  <br>
+  </span>
+  </td>
+  </tr>
+
+
+<tr>
+  <td valign="top" nowrap="nowrap">
+  <font size="-1" face="Arial, sans-serif"><b>
+  Desired Account Name:
+  </b></font>
+  <b>&nbsp;</b>
+  </td>
+  <td nowrap="nowrap">
+  <table border="0" dir="ltr">
+  <tbody><tr>
+  <td dir="ltr">
+  <bdo dir="ltr">
+  <div>
+  <div id="googleIdTextfield" style="display:block">
+  <input type="text" name="username" id="username" size="30" value="" n="3">
+  </div>
+  </div>
+  </bdo>
+  <div id="googleIdExampleTextDiv" style="display:block;" align="left">
+  <font size="-1" face="Arial, sans-serif" color="#6f6f6f">
+  Examples: jsmith, JohnSmith
+  </font>
+  </div>
+  <div id="googleIdCheckAvailDiv" style="display: block; ">
+<div id="errorDIV">
+  <font size="-1" face="Arial, sans-serif">
+  <br>
+  <table cellpadding="0" cellspacing="0">
+  <tbody><tr><td>
+  </td></tr>
+  </tbody></table>
+  </font>
+</div>
+
+<div id="suggestionsDIV">
+  <br>
+  <font size="-1" face="Arial, sans-serif">
+  </font>
+</div>
+
+  </div>
+
+  <noscript>
+  </noscript>
+  </td>
+  <td valign="top" nowrap="nowrap">
+  <bdo dir="ltr">
+  <font size="-1" face="Arial, sans-serif">
+  <i>@cloak.eecs.umich.edu</i>
+  </font>
+  </bdo>
+  </td>
+  </tr>
+  </tbody></table>
+  </td>
+</tr>
+  <tr>
+  <td valign="top" width="1%" nowrap="nowrap">
+  <font size="-1" face="Arial, sans-serif"><b>
+  Choose a password:
+  &nbsp;&nbsp;</b></font>
+  </td>
+  <td valign="top">
+  <table cellpadding="0" bgcolor="#ffffff" cellspacing="0" border="0">
+  <tbody>
+  <tr>
+  <td valign="top">
+  <div>
+  <input type="password" name="passwd" id="passwd" size="30" n="4">
+  </div>
+  <font size="-1" face="arial,sans-serif" color="#6f6f6f">
+  Minimum of 8 characters in length.
+  </font>
+  </td>
+
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" nowrap="nowrap">
+  <font size="-1" face="Arial, sans-serif"><b>
+  Re-enter password:
+  </b>
+  </font>
+  </td>
+  <td>
+  <div>
+  <input type="password" name="passwdagain" id="passwdagain" size="30" n="5">
+  </div>
+  </td>
+  </tr>
+  
+  <tr>
+  <td colspan="2">&nbsp;</td>
+  </tr>
+    <tr id="AttrRowSecondaryEmail" style="display: table-row">
+  <td nowrap="nowrap" valign="top" id="AttrLabelCellSecondaryEmail">
+  <span class="gaia cca al">
+  Forwarding email:
+  </span>
+  </td>
+  <td id="AttrLabelCellSecondaryEmail">
+
+  <div>
+  <input type="text" name="fwdaddx" id="fwdaddx" size="30" value="" n="7">
+  </div>
+  <span class="gaia cca cmt">
+  This address is used to forward any emails you may receive and to send any error messages issued by your use of the service.
+  </span>
+  </td>
+  </tr>
+<tr>
+
+  <td>
+<noscript>
+</noscript>
+
+  </td>
+</tr>
+  
+<tr>
+  <td valign="top">
+  <span class="gaia cud cl">
+  Password Verification:
+  </span>
+  </td>
+  <td>
+  <table>
+<tbody><tr>
+  <td valign="top">
+  </td>
+  <td valign="top">
+  <span>
+  Type the account creation password to verify permission.
+  </span>
+    </td>
+</tr>
+<input type="password" name="passverify" id="passverify" size="30" n="4">
+
+  </tbody></table>
+  </td>
+</tr>
+
+
+  <tr>
+  <td colspan="1">
+  &nbsp;
+  </td>
+  <td colspan="1" align="center">
+  <input style="width:19em" id="submitbutton" name="submitbutton" type="SUBMIT" value="Create my account.">
+  </td>
+  </tr>
+
+  </tbody></table>
+  </td></tr>
+  </tbody></table>
+  </td>
+  </tr>
+  </tbody></table>
+  </td></tr>
+  </tbody></table>
+  </form>
+
+  </div>
+  <div class="footer">
+  <font size="-1" color="#666666">2011 - University of Michigan
+  </font>
+  </div>
+  
+
+</body></html>

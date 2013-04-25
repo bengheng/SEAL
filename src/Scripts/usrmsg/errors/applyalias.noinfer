@@ -1,0 +1,5 @@
+From: Alias Service <$fromaddx>
+To: $toaddx
+Subject: Could not infer an alias to use!
+--
+You have either never used an alias to communicate with the recipients in the message with subject "$subject" or you have previously used more than one alias to communicate with them.  To send the message successfully, please explicitly specify an alias address to send under by appending it to the 'To' field of the message.  The first alias you own that appears in the 'To' field will be applied.

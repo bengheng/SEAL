@@ -1,0 +1,5 @@
+From: Alias Creation Service <$fromaddx>
+To: $toaddx
+Subject: Invalid aliasname "$aliasname"!
+--
+Make sure your aliasname is properly formatted and is no longer than $maxlen characters!

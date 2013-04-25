@@ -1,0 +1,6 @@
+From: Cloak Service <$fromaddx>
+To: $aliasaddx, $useraddx
+Subject: Alias Send Permission Request For Address - $requestor
+--
+The sender at <$requestor> has attempted to send a message to you and requested to send messages to you through the alias listed in this message's To field.
+To allow this sender to correspond with you, please reply to this message. (Content of your reply will be ignored)

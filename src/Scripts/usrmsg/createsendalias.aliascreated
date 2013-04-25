@@ -1,0 +1,6 @@
+From: Alias Creation Service <$fromaddx>
+To: $toaddx
+Subject: Created new alias $aliasaddx
+--
+In the email with subject "$subject", email alias "$aliasaddx" was used to correspond with the following recipients:
+$rcpts

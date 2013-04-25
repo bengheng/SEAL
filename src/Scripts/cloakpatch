@@ -1,0 +1,36 @@
+Index: cloak/service.py
+===================================================================
+--- cloak/service.py	(revision 124)
++++ cloak/service.py	(working copy)
+@@ -454,7 +454,7 @@
+ 
+ 					# Create error response message
+ 					err = ErrorMessage('forward.badformat',
+-							   fromaddx	= self.cfg.GETALIAS,
++							   fromaddx	= self.cfg.SVCALIAS,
+ 							   toaddx	= mailfrom,
+ 							   badalias	= prcpt.address)
+ 
+@@ -505,6 +505,9 @@
+ 								#		    self.db.CAPTCHA_PENDING)
+ 								logging.debug('done sending captcha')
+ 
++							elif capstat == self.db.CAPTCHA_PENDING:
++								logging.debug('captcha was already sent; still waiting for solution')
++
+ 							elif capstat == self.db.CAPTCHA_APPROVED:
+ 								logging.debug('captcha approved, but not yet user approved')
+ 								# if user denied,
+Index: cloak/message.py
+===================================================================
+--- cloak/message.py	(revision 124)
++++ cloak/message.py	(working copy)
+@@ -116,7 +116,7 @@
+ 				phdr = address.getaddresses([hdr[1]])
+ 
+ 				for entry in phdr:
+-					if (isinstance(searchfunc,function))	\
++					if (isinstance(searchfunc,function)	\
+ 					   and searchfunc(entry))		\
+ 					   or (entry.address == searchfunc):
+ 						yield entry

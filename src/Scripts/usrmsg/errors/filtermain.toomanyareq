@@ -1,0 +1,5 @@
+From: Alias Creation Service <$fromaddx>
+To: $toaddx
+Subject: Improperly formatted email
+--
+Your email with subject "$subject" could not be sent because it contained multiple alias request addresses.  Our service only supports creating one alias in a message, so you must either specify an alias you already own to use or a single alias request address in the 'To' field of your message, along with the intended recipients.
